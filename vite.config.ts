@@ -4,6 +4,5 @@ import babel from '@rolldown/plugin-babel'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/02-react-cafe/',
   plugins: [react(), babel({ presets: [reactCompilerPreset()] })],
 })
